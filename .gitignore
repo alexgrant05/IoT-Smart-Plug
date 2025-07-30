@@ -1,0 +1,13 @@
+# Global ignores
+*.pyc
+__pycache__/
+*.log
+
+# Python dashboard venv
+python_dashboard/.venv/
+.venv/
+
+# PlatformIO and VSCode
+firmware/.pio/
+firmware/.vscode/
+firmware/.venv/

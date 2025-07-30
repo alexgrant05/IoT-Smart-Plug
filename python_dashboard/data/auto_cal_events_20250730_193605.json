@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": 1753918414.9317918,
+    "datetime": "2025-07-30 19:33:34",
+    "type": "Bias voltage recalibrated",
+    "stats": {}
+  },
+  {
+    "timestamp": 1753918426.51987,
+    "datetime": "2025-07-30 19:33:46",
+    "type": "Bias voltage recalibrated",
+    "stats": {}
+  }
+]

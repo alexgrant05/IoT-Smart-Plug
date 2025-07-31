@@ -1,6 +1,6 @@
 # ESP32 Smart Power Monitor with Auto-Calibration
 
-AnIoT power monitoring system featuring automatic calibration, device recognition, and real-time data visualization.
+An IoT power monitoring system featuring automatic calibration, device recognition, and real-time data visualization.
 
 ## Project Overview
 

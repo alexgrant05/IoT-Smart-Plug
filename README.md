@@ -1,18 +1,18 @@
-# ESP32 Smart Power Monitor with Auto-Calibration
+# ESP32 Smart Power Monitor with Auto Calibration
 
-An IoT power monitoring system featuring automatic calibration, device recognition, and real-time data visualization.
+An IoT power monitoring system featuring automatic calibration, device recognition, and real time data visualization.
 
 ## Project Overview
 
-This project implements a complete smart plug monitoring solution using an ESP32 microcontroller and SCT-013-000 current transformer. It features sophisticated auto-calibration algorithms, machine learning-based device recognition, and a full-featured Python dashboard for real-time monitoring and data analysis.
+This project implements a complete smart plug monitoring solution using an ESP32 microcontroller and SCT-013-000 current transformer. It features auto calibration algorithms, machine learning based device recognition, and a full featured Python dashboard for real time monitoring and data analysis.
 
 ### Key Features
 
-- **Auto-Calibration System**: Automatically adjusts for circuit variations and sensor drift
-- **Device Recognition**: ML-based identification of connected devices by their power signatures
-- **Real-Time Monitoring**: Live power consumption tracking with < 2s latency
+- **Auto Calibration System**: Automatically adjusts for circuit variations and sensor drift
+- **Device Recognition**: ML based identification of connected devices by their power signatures
+- **Real Time Monitoring**: Live power consumption tracking with < 2s latency
 - **Professional Dashboard**: Python GUI with graphing, statistics, and calibration controls
-- **Data Logging**: Comprehensive CSV/JSON export with auto-calibration event tracking
+- **Data Logging**: Comprehensive CSV/JSON export with auto calibration event tracking
 - **WiFi Configuration**: Built-in access point mode for easy network setup
 - **Learning System**: Adapts calibration parameters over time for improved accuracy
 
@@ -27,7 +27,7 @@ This project implements a complete smart plug monitoring solution using an ESP32
 
 ### Software
 - **Firmware**: ESP-IDF 5.1.1 (C)
-- **Dashboard**: Python 3.x with Tkinter GUI
+- **Dashboard**: Python 3.13.5 with Tkinter GUI
 - **Communication**: UDP broadcast protocol
 - **Build System**: PlatformIO
 
@@ -117,7 +117,7 @@ The circuit creates a DC bias of ~1.65V (half of 3.3V) which allows the AC signa
 
 The system features multiple calibration methods:
 
-### Auto-Calibration (Recommended)
+### auto Calibration (Recommended)
 - Automatically adjusts bias voltage and scale factor
 - Learns from stable load patterns
 - Recognizes common devices (60W bulbs, hair dryers, etc.)
@@ -125,17 +125,17 @@ The system features multiple calibration methods:
 ### Manual Calibration Options
 1. **Known Device Method**: Use a device with known power consumption
 2. **Two-Point Calibration**: Zero point + known load for best accuracy
-3. **Direct Parameter Setting**: For advanced users
+3. **Direct Parameter Setting**: If parameters are known
 
 ### Quick Bias Fix
-If you see high readings with no load:
+For high readings with no load:
 1. Ensure nothing is plugged into the extension cord
 2. Click "Fix Bias" button in the dashboard
 3. System will recalibrate the DC bias voltage
 
 ## Features Breakdown
 
-### Auto-Calibration System
+### auto Calibration System
 - **Zero-point drift correction**: Automatically compensates for temperature and component aging
 - **Scale factor learning**: Improves accuracy over time based on recognized devices
 - **Variance-based detection**: Identifies stable loads for calibration opportunities
@@ -217,8 +217,9 @@ Through this project, I gained experience with:
 - ESP32 programming with ESP-IDF
 - ADC sampling and signal processing
 - Current transformer theory and application
-- Auto-calibration algorithm development
+- auto calibration algorithm development
 - Python GUI development with Tkinter
 - Real-time data visualization
 - UDP network programming
 - IoT system design and integration
+
